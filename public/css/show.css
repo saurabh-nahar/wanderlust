@@ -1,0 +1,9 @@
+@media (max-width: 767px) {
+    .card.listing-card {
+      width: 100%;
+    }
+    .review-card,
+  #map {
+      max-width: 95%;
+  }
+  }
