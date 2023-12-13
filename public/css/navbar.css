@@ -1,0 +1,13 @@
+.search-input {
+    border-radius: 2rem;
+  }
+  .search-button {
+    border-radius: 2rem;
+    background-color: #fe424d;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar-nav {
+      background-color: #ffffff; 
+    }
+  }

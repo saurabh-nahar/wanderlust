@@ -1,0 +1,40 @@
+.filter {
+    margin-right: 3rem;
+    flex: none;
+    opacity: 0.75;
+  }
+  .filter:hover {
+    cursor: pointer;
+    opacity: 1;
+  }
+  .filter-container {
+    display: flex;
+    overflow-x: scroll;
+  }
+  .filter p {
+    font-size: 0.8rem !important;
+  }
+  .switch {
+    height: 2.5rem;
+    width: 10rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0rem !important;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    border-radius: 3rem;
+    font-size: 0.8rem !important;
+  }
+  .tax-info {
+    display: inline;
+  }
+
+  @media (max-width: 767px) {
+    .filter-container{
+      width: 100%;
+    }
+    .switch {
+      display: none; 
+    }
+  }
